@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/sivasubburaj20-crypto/Projects.git](https://github.com/sivasubburaj20-crypto/Projects.git)'
+                git branch: 'main', url: '(https://github.com/sivasubburaj20-crypto/Projects.git)(https://github.com/sivasubburaj20-crypto/Projects.git)'
             }
         }
         stage('Build Docker Image') {
